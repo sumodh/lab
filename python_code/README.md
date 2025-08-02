@@ -8,7 +8,7 @@ Welcome to my Python lab! This is where I save my code in the following topics f
 - 📚 Algorithms and data structures
 
 ## 📁 Structure
-[matplotlib](./python_code/matplotlib/) – Data visualization using Matplotlib
+[matplotlib](./matplotlib/) – Data visualization using Matplotlib
 
 
 ## 🧠 Goals
