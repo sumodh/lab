@@ -1,8 +1,8 @@
-# create a simple line plot
-# visualize the relationship between two variables,plotted along the x-axis and y-axis.
+## create a simple line plot
+### visualize the relationship between two variables,plotted along the x-axis and y-axis.
 
 
-# Code here
+#### Code here
 
 import numpy as np
 import matplotlib.pyplot as plt
