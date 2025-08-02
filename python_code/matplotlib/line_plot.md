@@ -9,7 +9,9 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-d1 = np.linspace(0, 1, 10)  d2 = d1 ** 2  d3 = d1 ** 0.5
+d1 = np.linspace(0, 1, 10) 
+
+d2 = d1 ** 2  d3 = d1 ** 0.5
 
 plt.plot(d1,d2, label='square')  
 
