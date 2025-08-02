@@ -1,0 +1,20 @@
+# create a simple line plot
+# visualize the relationship between two variables,plotted along the x-axis and y-axis.
+
+
+# Code here
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+d1 = np.linspace(0, 1, 10)
+d2 = d1 ** 2
+d3 = d1 ** 0.5
+
+plt.plot(d1,d2, label='square')
+plt.plot(d1,d3,label='square-root')
+plt.title(" Square & Square-root of tenths")
+plt.legend()
+plt.xlabel("tenths")
+plt.ylabel("square-root")
+
