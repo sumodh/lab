@@ -1,0 +1,23 @@
+# Every java program starts with a class declaration and it should
+# match the name of the file( HelloWorld.java)
+# The 'public' keyword means that the class is accessible from other classes
+
+# The main method is the entry point of any java application.
+# The term static means it belongs to the class and can be run without creating
+  any instance of the class
+# The term void means the emthod does not return any value.
+# String[] args is an array of strings passed as command-line arguments when
+  the program is run
+
+# System.out is a built-in output stream used for console output.
+# println method prints the text "Hello World"  and moves the cursor to a new line
+  afterward. 
+
+ 
+
+public class HelloWorld {
+   public static void main(String[] args) {
+     
+      System.out.println("Hello World");
+   }
+}
