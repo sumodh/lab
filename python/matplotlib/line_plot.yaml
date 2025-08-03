@@ -1,10 +1,8 @@
 # create a simple line plot
-- visualize the relationship between two variables,plotted along the x-axis and y-axis.
+# visualize the relationship between two variables,plotted along the x-axis and y-axis.
 
-- Code here
 
 import numpy as np
-
 import matplotlib.pyplot as plt
 
 d1 = np.linspace(0, 1, 10) 
