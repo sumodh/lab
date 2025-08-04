@@ -1,0 +1,11 @@
+# Groups by all columns to find exact duplicates
+# COUNT(*) counts occurrences of each combination
+# HAVING count > 1 shows only the duplicates
+# This helps us identify problematic records
+
+
+SELECT *, COUNT(*) as count
+FROM transactions_uncleaned_data
+GROUP BY transaction_id, date_time, store_location, customer_id, 
+         book_id, sale_price, payment_method, is_online
+HAVING count > 1;
