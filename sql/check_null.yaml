@@ -1,0 +1,15 @@
+# COUNT(*) gives the total number of rows
+# combination of CASE and SUM count missing values
+# CASE statement checks if  NULL?' If yes, it counts as 1; if no, it counts as 0
+# SUM adds up to get the total number of missing values in a row
+
+SELECT COUNT(*) AS total_rows,
+SUM(CASE WHEN transaction_id IS NULL THEN 1 ELSE 0 END) AS missing_transaction_id,
+SUM(CASE WHEN date_time IS NULL THEN 1 ELSE 0 END) AS missing_date_time,
+SUM(CASE WHEN store_location IS NULL THEN 1 ELSE 0 END) AS missing_store_location,
+SUM(CASE WHEN customer_id IS NULL THEN 1 ELSE 0 END) AS missing_customer_id,
+SUM(CASE WHEN book_id IS NULL THEN 1 ELSE 0 END) AS missing_book_id,
+SUM(CASE WHEN sale_price IS NULL THEN 1 ELSE 0 END) AS missing_sale_price,
+SUM(CASE WHEN payment_method IS NULL THEN 1 ELSE 0 END) AS missing_payment_method,
+SUM(CASE WHEN is_online IS NULL THEN 1 ELSE 0 END) AS missing_is_online
+FROM transactions_uncleaned_data;
