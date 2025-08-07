@@ -1,0 +1,19 @@
+# Scatter plots are useful for showing the relationship between two variables. 
+# They can help identify patterns, trends, and potential correlations between the variables.
+
+import matplotlib.pyplot as plt
+
+# Dummy data
+x = [5, 7, 8, 7, 2, 17, 2, 9, 4, 11]
+y = [99, 86, 87, 88, 100, 86, 103, 87, 94, 78]
+
+# Creating the scatter plot
+plt.scatter(x, y, color='g')
+
+# Adding title and labels
+plt.title('Scatter Plot of X vs Y')
+plt.xlabel('X')
+plt.ylabel('Y')
+
+# Show plot
+plt.show()
