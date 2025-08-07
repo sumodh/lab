@@ -1,0 +1,19 @@
+# pie charts are useful for showing the proportion of different categories.
+# They provide a visual representation of how each category contributes to the whole.
+
+
+
+import matplotlib.pyplot as plt
+
+# Dummy data
+labels = ['Apple', 'Banana', 'Cherry', 'Date']
+sizes = [15, 30, 45, 10]
+
+# Creating the pie chart
+plt.pie(sizes, labels=labels, colors=['r', 'y', 'c', 'm'])
+
+# Adding title
+plt.title('Fruit Proportions')
+
+# Show plot
+plt.show()
