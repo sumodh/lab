@@ -1,0 +1,21 @@
+#Bar plots are useful for comparing quantities across different categories.
+#
+
+# import package
+import matplotlib.pyplot as plt
+
+# Dummy data
+categories = ['A', 'B', 'C', 'D']
+values = [4, 7, 1, 8]
+
+# Creating the bar plot
+plt.bar(categories, values, color=['r', 'g', 'b', 'c'])
+
+# Adding title and labels
+plt.title('Category Values')
+plt.xlabel('Category')
+plt.ylabel('Values')
+
+# Show plot
+plt.show()
+
