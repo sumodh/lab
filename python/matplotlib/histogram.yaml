@@ -1,0 +1,17 @@
+# Histograms are used to represent the distribution of a dataset by 
+# dividing it into bins and counting the number of observations in each bin.
+
+# import packages
+import matplotlib.pyplot as plt
+import random
+
+# Generate 100 random integers between 0 and 100 (inclusive)
+random_integers = [random.randint(0, 100) for _ in range(100)]
+
+# Create the histogram
+plt.hist(random_integers, bins=10, edgecolor='black') # You can adjust 'bins' as needed
+plt.xlabel("Integer Value")
+plt.ylabel("Frequency")
+plt.title("Histogram of 100 Random Integers (0-100)")
+plt.grid(axis='y', alpha=0.75)
+plt.show()
