@@ -1,0 +1,18 @@
+# Heatmaps are useful for visualizing matrix-like data.
+# They provide a clear visual representation of data density, patterns, and correlations.
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Dummy data
+matrix = np.random.rand(10,10)
+
+# Creating the heatmap
+plt.imshow(matrix, cmap='viridis')
+
+# Adding title
+plt.title('Heatmap of Random Data')
+
+# Show plot
+plt.show()
