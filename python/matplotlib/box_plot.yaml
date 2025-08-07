@@ -1,0 +1,18 @@
+# Box plots are useful for visualizing the distribution of a dataset through its quartiles.
+# They provide a clear summary of the data's central tendency, variability, and potential outliers.
+
+import matplotlib.pyplot as plt
+
+# Dummy data
+data = [1, 2, 2, 3, 4, 6, 6, 7, 8, 9, 10]
+
+# Creating the box plot
+plt.boxplot(data)
+
+# Adding title and labels
+plt.title('Box Plot of Data')
+plt.xlabel('Data')
+plt.ylabel('Value')
+
+# Show plot
+plt.show()
