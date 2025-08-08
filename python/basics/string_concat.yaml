@@ -1,0 +1,5 @@
+# python does not auto-convert other data types to string
+# convert int to string before printing
+
+text = str(18) + ' years old' # Convert int to str before concatenation
+print(text)
