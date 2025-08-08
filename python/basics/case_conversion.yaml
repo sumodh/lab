@@ -1,0 +1,12 @@
+# Uppercase, lowercase, and titlecase
+
+text = 'Python is versatile.'
+
+upper_text = text.upper()
+lower_text = text.lower()
+title_text = text.title()
+
+print('text:', text)
+print('upper_text:', upper_text)
+print('lower_text:', lower_text)
+print('title_text:', title_text)
