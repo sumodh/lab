@@ -1,0 +1,39 @@
+# data type converters are functions that allow you to convert values from
+# one data type to another
+
+
+# convert string to int
+
+	x= '0'
+	x= int(x)
+	print('x:', x, type(x)
+
+# convert float to int
+
+	x= 0.1
+	x= int(x)
+	print('x:', x, type(x))
+
+# string to float
+
+	x= '0'
+	x= float(x)
+	print('x:', x, type)
+
+# int to float
+
+	x=0
+	y=float(x)
+	print(f'x is of {type(x)} and {y} is of {type(y)}')
+
+# int 0 to str
+
+	x=0
+        y= str(x)
+        print(f'x equal to : {x} is of {type(x)} and y equal to: {y} is of {type(y)}')
+
+# flaot 0.1 to string
+	
+	x= 0.1
+	y= str(x)
+	print('x:',x ,type(x), 'y:', y, type(y))
