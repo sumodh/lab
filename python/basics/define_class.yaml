@@ -1,0 +1,29 @@
+# define a Car class 
+# __init__() method initializes the car's attributes: make, model, year, and color
+# self refers to the object this method is creating
+
+
+# Defining the class Car
+class Car:
+  # Initialize the Car object with make, model, year, and color
+  def __init__(self, make, model, year, color):
+    self.make = make  # Assign the make of the car
+    self.model = model  # Assign the model of the car
+    self.year = year  # Assign the year of the car
+    self.color = color  # Assign the color of the car
+
+  # Method to start the car
+  def start(self):
+    print(f'The {self.color} {self.make} {self.model} is starting.')
+
+  # Method to stop the car
+  def stop(self):
+    print(f'The {self.color} {self.make} {self.model} is stopping.')
+
+  # Method to drive the car
+  def drive(self):
+    print(f'The {self.color} {self.make} {self.model} is driving.')
+
+  # Method to return a string representation of the Car object
+  def __repr__(self):
+    return f'I am a {self.color} {self.make} {self.model} car!'
