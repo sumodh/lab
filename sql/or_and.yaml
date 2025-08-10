@@ -1,0 +1,15 @@
+# this is an example of using logical operators 'and' and 'or'
+
+
+# 'or' example
+SELECT *
+FROM projects
+WHERE status= 'COMPLETED' OR status='CANCELLED';
+
+# and example
+
+SELECT firstname,lastname,EMAIL
+FROM employees
+WHERE role='Software Engineer' AND years_in_company>3;
+
+
