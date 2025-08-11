@@ -1,0 +1,8 @@
+str1 = "I love python"
+
+#string to list of characters 
+.
+chars=[]
+for chr in str1:
+    chars.append(chr)
+print(chars)
