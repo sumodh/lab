@@ -1,0 +1,33 @@
+# read the whole file as one string and
+
+# count the number of characters
+
+	fileref = open("olympics.txt", "r")
+	entire_file=fileref.read()
+	print(len(entire_file))
+	fileref.close()
+
+# count the number of lines
+# readlines return list of lines
+
+	fileref = open("olympics.txt", "r")
+	lines=fileref.readlines()
+	print(len(lines))
+	fileref.close()
+
+# iteration over the list of lines
+# first four lines printed
+
+	fileref = open("olympics.txt", "r")
+	lines=fileref.readlines(	)
+	for line in lines[:4]:
+    	    print(line.strip())
+	fileref.close()
+
+# iterate over the whole file using the reference
+# of the file object returned by open function
+
+	fileref = open("olympics.txt", "r")
+	for line in fileref:
+    	    print(line.strip())
+	fileref.close()
