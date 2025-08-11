@@ -1,0 +1,12 @@
+# if a user enters a negative number in calculating a square root
+# the square root function will report a ValueError exception
+
+import math
+a_number = int(input("Please enter an integer "))
+
+try:
+  print(math.sqrt(a_number))
+except:
+  print("Bad value for the square root function")
+  print("Using the absolute value instead")
+  print(math.sqrt(abs(a_number)))
