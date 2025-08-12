@@ -1,6 +1,8 @@
 /*
     Circle and its area
     fuction to calculate the area of a circle
+    to compile(on MAC): clang area_circle.c -o area_crcle
+    to compile on (windows): gcc area_circle.c -o area_circle
 */
 
 # include <stdio.h>
