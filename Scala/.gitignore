@@ -1,0 +1,61 @@
+### Scala / sbt ###
+# sbt build output
+target/
+project/target/
+project/project/
+
+# Scala compiled class files
+*.class
+*.tasty
+*.log
+
+# Dependency cache
+lib_managed/
+src_managed/
+.idea_modules/
+
+# Scala worksheets
+*.worksheet.sc
+# Scala build metadata
+.bsp/
+.scala-build/
+
+### Metals (VS Code) ###
+.metals/
+.bloop/
+.vscode/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+.ensime_cache/
+
+### Coursier ###
+# Coursier cache (don’t commit JDKs or jars)
+.cache/coursier/
+Library/Application Support/Coursier/
+
+### Ammonite ###
+.ammonite/
+
+### OS-generated files ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+
+### Temporary files ###
+*.tmp
+*.bak
+*.swp
+
+
