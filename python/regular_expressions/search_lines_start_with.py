@@ -1,4 +1,5 @@
-# Serach for lines that start with a word
+# Search for lines that start with a W
+#
 
 import re
 
