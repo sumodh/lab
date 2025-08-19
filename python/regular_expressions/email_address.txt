@@ -1,0 +1,6 @@
+'<source@collab.sakaiproject.org>;'
+'9@collab.sakaiproject.org;'
+'abc88@collab.sakaiproject.org>;'
+'cD88@collab.sakaiproject.org>;'
+'88@collab.sakaiproject.org>;'
+'a88@collab.sakaiproject.org>;
