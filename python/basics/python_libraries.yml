@@ -1,0 +1,28 @@
+# Understanding core Libraries
+# foundational tools for working with data
+
+# NumPy
+
+# provides a powerful array object much more efficeint for storing and
+# manipulating large datasets than standard Python lists
+# Provides high-level mathematical functions to operate on these arrays
+
+
+# Pandas
+
+# builds on NumPy and introduces the DataFrame, which is like a spreadsheet
+# or a SQL table
+# makes it incredibly easy to handle tabular data, perform operations like 
+# filtering, grouping, and merging, and deal with missing values
+
+# Matplotlib
+
+# foundational toolkit for creating plots. 
+# gives control over every single element of visualization,
+# from lines and points to axes and labels
+
+# Seaborn
+
+# is built on top of Matplotlib
+# provides a higher-level interface for drawing attractive and 
+# informative statistical graphics
