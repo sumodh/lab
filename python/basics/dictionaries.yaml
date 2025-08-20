@@ -1,0 +1,51 @@
+# A dictionary is a set of keys and corresponding values
+# stores data as unordered key-value pairs
+# extremely useful!
+ 
+# Use Case: Storing several attributes (or data points) about a single thing
+# To create use comma separated key:value pairs, in between curly braces {}
+# keys are simple data types (usually strings or ints)
+# values can be of any type
+
+# mutable, once defined elements can be changed
+
+# Example
+
+ person = {'name': 'Sumo','height': 6*12,1:'favorite number'}
+ 
+ print(type(person))
+
+# get value using built-in get method
+
+ print(person.get('name'))
+
+# get method returns default value
+#  KeyError occurs if key does not exist in the dictionary
+
+ print(person['address'])
+ print(person.get('address','SYD'))
+
+# update or add elements
+
+ person['name']='Zumo'
+ person['address']= 'SYD'
+ person['height']= 6.5*12
+
+# check if key exits
+print('address' in person)
+
+# Delete element in the dictionary using del keyword
+del person['height']
+print(person)
+
+# can include other dictionaries or lists as values
+person['siblings']= ['Zuu']
+person['siblings'].append('Zuuu')
+print(person)
+
+# add key:value pairs from another dictionary using built-in dictionay
+# update method
+
+person_attributes={'Marital Status': "Married",'Children':2}
+person.update(person_attributes)
+print(person)
