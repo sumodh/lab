@@ -1,4 +1,6 @@
 // to compile: g++ -std=c++17 -o program main.cpp Cube.cpp
+// enter ./program
+
 
 #include "Cube.h"
 #include <iostream>
