@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# if elif and else example
+# use $ when using a variable in string  
+
+
 echo "What food do you choose?"
 read FOOD
 if [ "$FOOD" = "Apple" ]; then
